@@ -5,7 +5,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 module.exports = {  //Aquí se encuentra toda la configuración de lo que va a suceder. Modulo para exportar.
     entry: './src/index.js', //Punto de entrada con su dirección.Aquí vive el código inicial y de aquí parte al desarrollo.
     output: { //Donde se envía el proyecto estructurado y compilado listo para producción.
-        path: path.resolve(__dirname, 'doc'),  //Creamos el lugar dónde se exportará el proyecto.
+        path: path.resolve(__dirname, 'docs'),  //Creamos el lugar dónde se exportará el proyecto.
         filename: 'main.js' //Este es el nombre del archivo final para producción.
     },
     resolve: {
